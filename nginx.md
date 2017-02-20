@@ -5,7 +5,10 @@ Scripts for setting up AWS Athena with common AWS Services.
 ### NGINX
 
 **Sample Request**
+```bash
 54.255.254.242 - - [19/Feb/2017:19:00:26 +0000] "GET / HTTP/1.1" 200 3770 "-" "Amazon Route 53 Health Check Service; ref:6ba00c53-2538-40ee-b47f-b01eb3dfd95e; report http://amzn.to/1vsZADi" "-"
+```
+
 ```bash
 remote_addr string                54.255.254.242
 remote_user string,               -
